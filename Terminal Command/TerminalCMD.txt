@@ -1,0 +1,28 @@
+// TERMINAL COMMAND //
+
+1. "touch <filename>.txt" ==>  Create Files.txt
+2. "open <filename> . " ==> opens file.
+3. "cd .." ==> back file directory by 1. 
+4. "pwd" ==> Gives Complete Directory
+5. "cd ~" ==> change directory to user
+6. "rm -r <DirectoryName> ==> Delete directory
+7. "echo "any instruction you want in file" > filename.txt" ==> edit text of filename.txt.
+8. "unzip <filename with extension> ==>unzip the file.
+9. "mv <old filename> <new file name>" ==> changes file name.
+10. "rm -rf <filename>" ==> powerful command to forceful remove any file.
+11. "vim <filename>" ==> opens edit file. 
+
+
+// GIT COMMAND //
+
+1. "git log" ==> shows who made the changes.
+2. "git log --author="Dhakal, Bidhut" ==> Shows changes logs by particular Usergit
+3. "git branch <branch name>" ==> create new branch on cloud
+4. "git checkout <branch name>" ==> changes branch to the <branch name addressed verify 					from git status.
+5. "git branch" ==> gives you the list of branch that are in cloud
+6. "git merge <branch name>" ==> merging any branch to the desired branch, ie. master or 				any branch, but remember? switch to the branch which you 				want to send info with before executing merge.
+	
+	NOTE: dont forget to push to the cloud to appear changes.
+
+7. "git reset HEAD <filename>" ==> revert from staging to working directory
+8. "git reset head~" ==> getting back after sending to the local directory.

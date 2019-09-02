@@ -1,0 +1,23 @@
+Jenkins:
+Localhost:8070
+java -jar /Users/<username>/Downloads/jenkins.war --httpPort=9090
+
+java -jar /jenkins.war ==> after going on the location.
+
+
+TomCat: 
+
+
+Setting up first time:
+-cd bin ==> go to tomcat vin directory then the command
+
+	"chmod +x *.sh"==> only for the first time so we can run the command directly.
+
+-Set up port number from conf==>server; I set 8070 on as my port number.
+
+Start by "./startup.sh"
+ShutDown by "./shutdown.sh"
+
+
+Localhost:8070
+
