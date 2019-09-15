@@ -8,7 +8,7 @@ CI helps to detect error quickly and lockate them more easily.
 
 "//Installing Jenkins and Configuration//"
 
-tep 1: Check if JDK has been Pre-Installed
+step 1: Check if JDK has been Pre-Installed
 
 In some Mac systems (earlier than Mac OS X 10.7), JDK has been pre-installed. To check if JDK has been installed, open a "Terminal" (Search "Terminal"; or Finder ⇒ Go ⇒ Utilities ⇒ Terminal) and issue this command:
 
@@ -45,7 +45,7 @@ Start Jenkins on Mac OS
 
 1. Open terminal and execute command
 
-"java -jar ~/path-to-jenkins-war/jenkins.war -httpPort={Port_Num}" ==> for configurating jenkins.
+"java -jar ~/path-to-jenkins-war/jenkins.war -httpPort=<Port_Num>" ==> for configurating jenkins.
 
 Example: "java -jar /Users/<username>/Downloads/jenkins.war --httpPort=9090" ==> remember how you assign the port for the jenkins. then run the port and enter the password.
 

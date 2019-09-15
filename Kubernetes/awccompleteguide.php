@@ -193,6 +193,13 @@ kops create cluster --yes --state=s3://kops-storage-b345987 --
 zones=ap-south-1a,ap-southeast-1b,ap-southeast-2c --node-count=2 --
 node-size=t2.micro --master-size=t2.micro --name=test.k8s.local
 
+"###########################################################################"
+"##################################Installing Ansible#########################################"
+'$ ansible --version
+'$ sudo apt update
+'$ sudo apt install software-properties-common
+'$ sudo apt-add-repository --yes --update ppa:ansible/ansible
+'$ sudo apt install ansible
 
 "###########################################################################"
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~DONE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
