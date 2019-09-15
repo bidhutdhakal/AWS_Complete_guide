@@ -299,3 +299,7 @@ while creating pass special characters such as $, \*, and ! require escaping. fo
 10. "use mysql;" ==> use mysql as a current databases.
 11. "show tables;" ==> shows the table.
 12. 
+
+abc
+
+Kishor Rimal.
